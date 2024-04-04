@@ -1,0 +1,51 @@
+<section class="contact-form">
+
+    <!--navigation-->
+       <nav>
+           <!--logo-->
+           <a href="https://www.tayozola.net" class="logo">
+               <img src="images/2.png"/>
+           </a>
+           <!--menu-btn----------->
+           <input class="menu-btn" type="checkbox" id="menu-btn"/>
+           <label class="menu-icon" for="menu-btn">
+               <span class="nav-icon"></span>
+           </label>
+           <!--menu-->
+           <ul class="menu">
+               <li><a href="https://www.tayozola.net">Home</a></li>
+               <li><a href="https://www.blog.tayozola.net">Blog</a></li>
+               <li><a href="https://www.contact.tayozola.net">Contact</a></li>
+               <li><a href="https://www.login.tayozola.net">LogIn</a></li>
+           </ul>
+
+       </nav>
+
+
+
+   <h2>Contact Us</h2>
+   <p>Have a question or want to get in touch? We'd love to hear from you!</p>
+
+   <link rel="stylesheet" href="css/style.css"/>
+   <form action="https://formsubmit.co/contact@tayozola.net" method="POST">
+     <div class="input-group">
+       <label for="first-name">First Name:</label>
+       <input type="text" id="first-name" name="first-name" required>
+     </div>
+     <div class="input-group">
+       <label for="last-name">Last Name:</label>
+       <input type="text" id="last-name" name="last-name" required>
+     </div>
+     <div class="input-group">
+       <label for="email">Email:</label>
+       <input type="email" id="email" name="email" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+     </div>
+     <div class="input-group">
+       <label for="message">Message:</label>
+       <textarea id="message" name="message" rows="4" required></textarea>
+     </div>
+     <button type="submit">Send</button>
+     <!--<button type="submit" value="Send"></button>-->
+   </form>
+ </section>
+
